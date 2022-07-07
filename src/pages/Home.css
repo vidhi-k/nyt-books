@@ -1,0 +1,27 @@
+p {
+    font-size: 80px;
+    margin: 10px 0;
+    /* font-weight: 900; */
+    animation-name: text;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes text {
+    0% {
+      color: #232946;
+    }
+    30% {
+      letter-spacing: 11px;
+    }
+    85% {
+      letter-spacing: 4px;
+    }
+    100% {
+      margin-bottom: 10px;
+    }
+  }
+
+button:hover {
+    background-color: #b8c1ec;
+}
